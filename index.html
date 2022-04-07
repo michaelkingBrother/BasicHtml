@@ -1,0 +1,19 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title>
+		include on html with jquery
+	</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>$(function(){
+		$("#getHeader").load("header.html");
+        $("#getBody").load("body.html");
+        $("#getFooter").load("footer.html");       
+        });
+    </script>
+</head>
+<body>
+	<header id='getHeader'></header>
+	<main id='getBody'></main>
+    <footer id='getFooter'></footer>
+</body>
